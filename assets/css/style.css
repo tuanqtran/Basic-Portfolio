@@ -1,3 +1,20 @@
+.about-tab, .portfolio-tab, .contact-tab{
+	text-decoration: none;
+	padding: 31px 10px;
+    position: relative;
+    float: right;
+    color: grey;
+    border-top: 3px solid transparent;
+    font-size: 1.2em;
+}
+
+.about-tab:hover, .portfolio-tab:hover, .contact-tab:hover{
+
+    opacity:.8;
+    position:relative;
+    border-top:3px solid #3ffce0;
+}
+
 .topbar{
 	background-color: white;
 	width:100%;
@@ -70,37 +87,6 @@ p{
 	font-weight: bold;
 }
 
-.about-tab{
-	float: right;
-	border-right-style: solid;
-	border-width: 1px;
-	margin: 35px 0 35px 0;
-	padding-right: 25px;
-	color: grey;
-/*	background: blue; */
-
-
-}
-
-.portfolio-tab{
-	float: right;
-	border-right-style: solid;
-	border-width: 1px;
-	margin: 35px 0 35px 35px;
-	padding-right: 25px;
-	color: grey;
-/*	background: green; */
-}
-
-.contact-tab{
-	float: right;
-	margin: 35px 0 35px 0;;
-	padding-left: 25px;
-	color: grey;
-/*	background: blue; */
-}
-
-
 .top-line{
 	background: #ffffff; /* Change to #ffffff later */
 	border-width: 2px;
@@ -139,6 +125,21 @@ p{
 	float: left;
 	padding-right: 20px;
 	padding-top: 20px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+ 
+.profile-pic:hover {
+  border-radius: 50%;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 .about-me{
