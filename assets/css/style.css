@@ -125,11 +125,11 @@ p{
 	float: left;
 	padding-right: 20px;
 	padding-top: 20px;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
  
@@ -163,6 +163,10 @@ p{
 	z-index: 9000;
 }
 
+.about-me-box p{
+	margin: 15px 0 5px;
+}
+
 
 .connect-box{
 	float:right;
@@ -193,10 +197,6 @@ p{
 
 }
 
-.about-me-box p{
-	margin: 15px 0 5px;
-}
-
 .submit-button{
 	background-color: #4aaaa5;
     border: none;
@@ -208,4 +208,140 @@ p{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.portfolio-box{
+	background: white;
+	width: 65%;
+	padding: 20px;
+	margin: 0;
+	position: relative;
+	float: left;
+	top: 25px;
+	z-index: 9000;
+}
+
+.portfolio-box p{
+	margin: 15px 0 5px;
+}
+
+.portfolio-box img{
+	width: 250px;
+	height: 150px;
+}
+
+.img1{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	top:25px;
+	left:25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.img2{
+	position: relative;
+	float: right;
+	margin: 0 auto;
+	top:25px;
+	right:25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+.img3{
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	left: 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.img4{
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	right: 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.img5{
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	left: 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.portfolio-p{
+	position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 107px;
+	padding-right: 107px;
+	float:left;
+	top: 190px;
+	left: 46px;
+	opacity: .75;
+}
+
+.portfolio-p2{
+	position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 111px;
+	padding-right: 111px;
+	top: 190px;
+	right: 45px;
+	opacity: .75;
+}
+
+.portfolio-p3{
+	position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 104px;
+	padding-right: 104px;
+	top: 370px;
+	left: 45px;
+	opacity: .75;
+}
+
+.portfolio-p4{
+	position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 102px;
+	padding-right: 102px;
+	top: 370px;
+	right: 45px;
+	opacity: .75;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+  -webkit-filter: brightness(85%);
 }
