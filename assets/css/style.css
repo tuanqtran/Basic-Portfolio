@@ -1,0 +1,140 @@
+p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+body{
+	width:960px;
+	margin: auto;
+
+}
+
+.name{
+	background: #4aaaa5;
+	border-style: solid;
+	border-color: #666666;
+	border-width: 1px;
+	padding: 25px;
+	margin: auto;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float:left;
+	color: white;
+	font-weight: bold;
+}
+
+.about-tab{
+	float: right;
+	border-right-style: solid;
+	border-width: 1px;
+	margin: 35px 0 35px 0;
+	padding-right: 25px;
+	color: grey;
+/*	background: blue; */
+
+
+}
+
+.portfolio-tab{
+	float: right;
+	border-right-style: solid;
+	border-width: 1px;
+	margin: 35px 0 35px 35px;
+	padding-right: 25px;
+	color: grey;
+/*	background: green; */
+}
+
+.contact-tab{
+	float: right;
+	margin: 35px 0 35px 0;;
+	padding-left: 25px;
+	color: grey;
+/*	background: blue; */
+}
+
+
+.top-line{
+	background: #ffffff; /* Change to #ffffff later */
+	border-width: 2px;
+	border-color: #dddddd;
+	height: 88px;
+
+}
+
+
+.mid-line{
+	background: #EEEEEE;
+	height:500px;
+/*	overflow: auto; Relative position for .about-me-box along with top:25px creates a scroll page*/
+}
+
+.copyright{
+	background: #666666;
+	float:left;
+	width: 960px;
+	border-top-style: solid;
+	border-width: 10px;
+	border-color: #4aaaa5;
+	margin: auto;
+	text-align: center;
+	color: white;
+
+}
+
+.profile-pic{
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.about-me{
+	color: #4aaaa5;
+	margin:0;
+	padding-bottom: 15px;
+	border-bottom-style: solid;
+	border-color: #666666;
+	border-width: 2px;
+	clear: both;
+}
+
+.about-me-box{
+	background: white;
+	width: 65%;
+	padding: 20px;
+	margin: 0;
+	position: relative;
+	float: left;
+	top: 25px;
+}
+
+
+.connect-box{
+	float:right;
+	width:20%;
+	background: white;
+	padding: 20px 20px 30px 20px;
+	position: relative;
+	top: 25px;
+}
+
+.connect-images{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+
+}
+
+.connect-header{
+	color: #4aaaa5;
+	margin:0;
+	padding-bottom: 15px;
+	border-bottom-style: solid;
+	border-color: #666666;
+	border-width: 2px;
+	text-align: center;
+
+}
