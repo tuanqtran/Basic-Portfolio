@@ -50,7 +50,7 @@
 	height:10px;
 	top:571px;
 	position: absolute;
-	z-index: 0;
+	z-index: 9500;
 
 }
 
@@ -183,7 +183,19 @@ p{
 	position: relative;
 	top: 10px;
 	left: 20px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
+.connect-images:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 .connect-header{
@@ -219,6 +231,7 @@ p{
 	float: left;
 	top: 25px;
 	z-index: 9000;
+	overflow: auto;
 }
 
 .portfolio-box p{
@@ -234,7 +247,7 @@ p{
 	position: relative;
 	float: left;
 	margin: 0 auto;
-	top:25px;
+	top:10px;
 	left:25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -247,7 +260,7 @@ p{
 	position: relative;
 	float: right;
 	margin: 0 auto;
-	top:25px;
+	top:10px;
 	right:25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -260,7 +273,7 @@ p{
 .img3{
 	position: relative;
 	float: left;
-	margin-top: 50px;
+	margin-top: 40px;
 	left: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -272,7 +285,7 @@ p{
 .img4{
 	position: relative;
 	float: right;
-	margin-top: 50px;
+	margin-top: 40px;
 	right: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -284,7 +297,7 @@ p{
 .img5{
 	position: relative;
 	float: left;
-	margin-top: 50px;
+	margin-top: 40px;
 	left: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -301,7 +314,7 @@ p{
 	padding-left: 107px;
 	padding-right: 107px;
 	float:left;
-	top: 190px;
+	top: 200px;
 	left: 46px;
 	opacity: .75;
 }
@@ -313,7 +326,7 @@ p{
 	padding-bottom: 10px;
 	padding-left: 111px;
 	padding-right: 111px;
-	top: 190px;
+	top: 200px;
 	right: 45px;
 	opacity: .75;
 }
@@ -325,7 +338,7 @@ p{
 	padding-bottom: 10px;
 	padding-left: 104px;
 	padding-right: 104px;
-	top: 370px;
+	top: 380px;
 	left: 45px;
 	opacity: .75;
 }
@@ -337,7 +350,7 @@ p{
 	padding-bottom: 10px;
 	padding-left: 102px;
 	padding-right: 102px;
-	top: 370px;
+	top: 380px;
 	right: 45px;
 	opacity: .75;
 }
