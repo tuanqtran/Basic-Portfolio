@@ -1,6 +1,6 @@
 .about-tab, .portfolio-tab, .contact-tab{
 	text-decoration: none;
-	padding: 31px 10px;
+	padding: 33px 10px 32px 10px;
     position: relative;
     float: right;
     color: grey;
@@ -18,39 +18,28 @@
 .topbar{
 	background-color: white;
 	width:100%;
-	height:88px;
-	position: absolute;
+	height:87px;
 	float:left;
 	z-index: 0;
+	clear:both;
 }
 
 .topborderbar{
 	background: #666666;
 	width:100%;
 	height:1px;
-	position: absolute;
-	top: 95px;
-	z-index: 9500;
+	float:left;
+	clear:both;
 }
 
 .midbar{
-
-	background-color: #EFEFEF;
+	/*background-image: url(assets/images/grey-background.jpg);*/
+	background-color: #EEEEEE;
 	width:100%;
-	height:475px;
-	top:96px;
-	position: absolute;
-	z-index: 0;
-
-}
-
-.smallbottombar{
-	background-color: #4aaaa5;
-	width:100%;
-	height:10px;
-	top:571px;
-	position: absolute;
-	z-index: 9500;
+	height: auto;
+	float:left;
+	padding-bottom: 50px;
+	clear:both;
 
 }
 
@@ -58,9 +47,9 @@
 	background-color: #666666;
 	width:100%;
 	height:50px;
-	top:581px;
-	position: absolute;
-	z-index: 0;	
+	float:left;
+	border-top: 10px solid #4aaaa5;
+	clear:both;
 }
 
 p{
@@ -71,24 +60,19 @@ p{
 .container{
 	width:960px;
 	margin: auto;
-
 }
 
 .name{
 	background: #4aaaa5;
-	border-style: solid solid none solid;
-	border-color: #666666;
-	border-width: 1px;
-	padding: 25px;
-	margin: auto;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	float:left;
 	color: white;
 	font-weight: bold;
+	font-size: 2em;
+	padding: 28px 20px 27px 20px;
 }
 
 .top-line{
-	background: #ffffff; /* Change to #ffffff later */
 	border-width: 2px;
 	border-color: #dddddd;
 	height: 87px;
@@ -100,23 +84,12 @@ p{
 }
 
 
-.mid-line{
-	background: #EEEEEE;
-/*	height:500px; */
-/*	overflow: auto;		Relative position for .about-me-box along with top:25px creates a scroll page*/
-}
-
 .copyright{
-	background: #666666;
-	float:left;
 	width: 960px;
 	margin: auto;
 	text-align: center;
 	color: white;
-	position: absolute;
-	top: 581px;
-	z-index: 9000;
-
+	padding: 17px 0px 17px 0px;
 }
 
 .profile-pic{
@@ -132,6 +105,9 @@ p{
 	transition: all 1s ease;
 }
 
+.about-me-box p{
+	margin: 20px 0 5px;
+}
  
 .profile-pic:hover {
   border-radius: 50%;
@@ -144,12 +120,12 @@ p{
 
 .about-me{
 	color: #4aaaa5;
-	margin:0;
 	padding-bottom: 15px;
 	border-bottom-style: solid;
 	border-color: #666666;
 	border-width: 2px;
-	clear: both;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 .about-me-box{
@@ -163,9 +139,6 @@ p{
 	z-index: 9000;
 }
 
-.about-me-box p{
-	margin: 15px 0 5px;
-}
 
 
 .connect-box{
@@ -200,12 +173,15 @@ p{
 
 .connect-header{
 	color: #4aaaa5;
-	margin:0;
 	padding-bottom: 15px;
 	border-bottom-style: solid;
 	border-color: #666666;
 	border-width: 2px;
 	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+
+
 
 }
 
@@ -234,19 +210,28 @@ p{
 	overflow: auto;
 }
 
+.portfolio-box h1{
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	border-bottom-style: solid;
+	border-color: #666666;
+	border-width: 2px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
 .portfolio-box p{
 	margin: 15px 0 5px;
 }
 
 .portfolio-box img{
 	width: 250px;
-	height: 150px;
+	height: 150px;folio
 }
 
 .img1{
 	position: relative;
 	float: left;
-	margin: 0 auto;
 	top:10px;
 	left:25px;
 	-webkit-transition: all 1s ease;
@@ -259,7 +244,6 @@ p{
 .img2{
 	position: relative;
 	float: right;
-	margin: 0 auto;
 	top:10px;
 	right:25px;
 	-webkit-transition: all 1s ease;
@@ -309,12 +293,9 @@ p{
 .portfolio-p{
 	position: absolute;
 	background: #4aaaa5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 107px;
-	padding-right: 107px;
+	padding: 10px 107px;
 	float:left;
-	top: 200px;
+	top: 170px;
 	left: 46px;
 	opacity: .75;
 }
@@ -322,11 +303,8 @@ p{
 .portfolio-p2{
 	position: absolute;
 	background: #4aaaa5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 111px;
-	padding-right: 111px;
-	top: 200px;
+	padding: 10px 111px;
+	top: 170px;
 	right: 45px;
 	opacity: .75;
 }
@@ -334,11 +312,8 @@ p{
 .portfolio-p3{
 	position: absolute;
 	background: #4aaaa5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 104px;
-	padding-right: 104px;
-	top: 380px;
+	padding: 10px 104px;
+	top: 350px;
 	left: 45px;
 	opacity: .75;
 }
@@ -346,15 +321,20 @@ p{
 .portfolio-p4{
 	position: absolute;
 	background: #4aaaa5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 102px;
-	padding-right: 102px;
-	top: 380px;
+	padding: 10px 102px;
+	top: 350px;
 	right: 45px;
 	opacity: .75;
 }
 
-.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+.portfolio-p5{
+	position: absolute;
+	background: #4aaaa5;
+	padding: 10px 101px;
+	top: 540px;
+	left: 45px;
+	opacity: .75;
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover{
   -webkit-filter: brightness(85%);
 }
