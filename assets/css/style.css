@@ -335,8 +335,6 @@ p{
 .img1{
 	position: relative;
 	float: left;
-	top:10px;
-	left:25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -347,8 +345,6 @@ p{
 .img2{
 	position: relative;
 	float: right;
-	top:10px;
-	right:25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -360,8 +356,6 @@ p{
 .img3{
 	position: relative;
 	float: left;
-	margin-top: 40px;
-	left: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -372,8 +366,6 @@ p{
 .img4{
 	position: relative;
 	float: right;
-	margin-top: 40px;
-	right: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -384,8 +376,6 @@ p{
 .img5{
 	position: relative;
 	float: left;
-	margin-top: 40px;
-	left: 25px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -393,54 +383,112 @@ p{
 	transition: all 1s ease;
 }
 
+.insideimg1{
+	width: 250px;
+	height: 150px;
+	top:10px;
+	left:25px;
+	float:left;
+	position: relative;
+}
+
+.insideimg2{
+	width: 250px;
+	height: 150px;
+	top:10px;
+	right:25px;
+	float: right;
+	position: relative;
+}
+
+.insideimg3{
+	width: 250px;
+	height: 150px;
+	margin-top: 40px;
+	top:10px;
+	left:25px;
+	float:left;
+	position: relative;
+}
+
+.insideimg4{
+	width: 250px;
+	height: 150px;
+	margin-top: 40px;
+	top:10px;
+	right:25px;
+	float:right;
+	position: relative;
+}
+
+.insideimg5{
+	width: 250px;
+	height: 150px;
+	margin-top: 40px;
+	top:10px;
+	left:25px;
+	float:left;
+	position: relative;
+}
+
 /*
 ================================================
 	Content tags within the portoflio images.
 ================================================
 */
+
 .portfolio-p{
 	position: absolute;
 	background: #4aaaa5;
-	padding: 10px 107px;
-	float:left;
-	top: 170px;
-	left: 46px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
 	opacity: .75;
 }
 
 .portfolio-p2{
 	position: absolute;
 	background: #4aaaa5;
-	padding: 10px 111px;
-	top: 170px;
-	right: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
 	opacity: .75;
 }
 
 .portfolio-p3{
 	position: absolute;
 	background: #4aaaa5;
-	padding: 10px 104px;
-	top: 350px;
-	left: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
 	opacity: .75;
 }
 
 .portfolio-p4{
 	position: absolute;
 	background: #4aaaa5;
-	padding: 10px 102px;
-	top: 350px;
-	right: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
 	opacity: .75;
 }
 
 .portfolio-p5{
 	position: absolute;
 	background: #4aaaa5;
-	padding: 10px 101px;
-	top: 540px;
-	left: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 90px;
+	width: 100%;
+	text-align: center;
 	opacity: .75;
 }
 
